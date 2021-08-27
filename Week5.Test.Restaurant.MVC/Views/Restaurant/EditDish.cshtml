@@ -1,0 +1,23 @@
+﻿@model DishViewModel
+
+@{
+    ViewData["Title"] = "Edit dish";
+}
+
+<style>
+    .errorMessage {
+        color: red;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="errorMessage">
+    @ViewData["DishError"]
+</div>
+
+<form method="post">
+
+    <partial name="_DishForm" model="Model" />
+
+    <input type="submit" value="Edit dish" class="btn btn-primary" />
+</form>

@@ -1,0 +1,26 @@
+﻿@model DishViewModel
+
+
+
+<div class="form-group">
+    <label asp-for="Name"></label>
+    <input asp-for="Name" class="form-control">
+    <span class="errorMessage" asp-validation-for="Name"></span>
+</div>
+<div class="form-group">
+    <label asp-for="Description"></label>
+    <input asp-for="Description" class="form-control">
+    <span class="errorMessage" asp-validation-for="Description"></span>
+</div>
+<div class="form-group">
+    <label asp-for="Type"></label>
+    <select class="custom-select" asp-items="Html.GetEnumSelectList<DishType>()"></select>
+    <span class="errorMessage" asp-validation-for="Type"></span>
+</div>
+<div class="form-group">
+    <label asp-for="Price"></label>
+    <input asp-for="Price" class="form-control">
+    <span class="errorMessage" asp-validation-for="Price"></span>
+</div>
+
+

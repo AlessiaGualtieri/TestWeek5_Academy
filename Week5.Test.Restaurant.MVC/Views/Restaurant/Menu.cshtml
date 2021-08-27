@@ -1,0 +1,55 @@
+﻿@model List<Dish>
+@{
+    ViewData["Title"] = "Menu";
+}
+
+<h1>Menu</h1>
+@if (User.IsInRole("Owner"))
+{
+    <a asp-controller="Restaurant" asp-action="AddDish">Aggiungi piatto</a>
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th>Tipologia</th>
+            <th>Nome</th>
+            <th>Prezzo</th>
+            @if (User.IsInRole("User"))
+            {
+                <th></th>
+            }
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Type</td>
+                <td>@item.Name</td>
+                <td>@item.Price</td>
+                @if (User.IsInRole("User"))
+                {
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                }
+                <td>
+                    <a asp-controller="Restaurant" asp-action="Detail" asp-route-id_dish="@item.ID_Dish">Detail </a>
+                    @if (User.IsInRole("Owner"))
+                    {
+                        <a asp-controller="Restaurant" asp-action="EditDish" asp-route-id_dish="@item.ID_Dish">| Edit </a>
+                        <a asp-controller="Restaurant" asp-action="DeleteDish" asp-route-id_dish="@item.ID_Dish">| Delete</a>
+                        @ViewData["DeleteDishError"]
+                    }
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@if (User.IsInRole("User"))
+{
+    <input type="submit" value="Confirm" class="btn btn-primary" />
+}

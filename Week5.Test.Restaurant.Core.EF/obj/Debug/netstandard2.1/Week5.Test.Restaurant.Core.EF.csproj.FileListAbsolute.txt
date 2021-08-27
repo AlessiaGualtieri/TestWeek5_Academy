@@ -1,0 +1,12 @@
+C:\Users\alessia.gualtieri\source\repos\Week5.Test.Restaurant.MVC\Week5.Test.Restaurant.Core.EF\bin\Debug\netstandard2.1\Week5.Test.Restaurant.Core.EF.deps.json
+C:\Users\alessia.gualtieri\source\repos\Week5.Test.Restaurant.MVC\Week5.Test.Restaurant.Core.EF\bin\Debug\netstandard2.1\Week5.Test.Restaurant.Core.EF.dll
+C:\Users\alessia.gualtieri\source\repos\Week5.Test.Restaurant.MVC\Week5.Test.Restaurant.Core.EF\bin\Debug\netstandard2.1\Week5.Test.Restaurant.Core.EF.pdb
+C:\Users\alessia.gualtieri\source\repos\Week5.Test.Restaurant.MVC\Week5.Test.Restaurant.Core.EF\bin\Debug\netstandard2.1\Week5.Test.Restaurant.Core.dll
+C:\Users\alessia.gualtieri\source\repos\Week5.Test.Restaurant.MVC\Week5.Test.Restaurant.Core.EF\bin\Debug\netstandard2.1\Week5.Test.Restaurant.Core.pdb
+C:\Users\alessia.gualtieri\source\repos\Week5.Test.Restaurant.MVC\Week5.Test.Restaurant.Core.EF\obj\Debug\netstandard2.1\Week5.Test.Restaurant.Core.EF.csproj.AssemblyReference.cache
+C:\Users\alessia.gualtieri\source\repos\Week5.Test.Restaurant.MVC\Week5.Test.Restaurant.Core.EF\obj\Debug\netstandard2.1\Week5.Test.Restaurant.Core.EF.AssemblyInfoInputs.cache
+C:\Users\alessia.gualtieri\source\repos\Week5.Test.Restaurant.MVC\Week5.Test.Restaurant.Core.EF\obj\Debug\netstandard2.1\Week5.Test.Restaurant.Core.EF.AssemblyInfo.cs
+C:\Users\alessia.gualtieri\source\repos\Week5.Test.Restaurant.MVC\Week5.Test.Restaurant.Core.EF\obj\Debug\netstandard2.1\Week5.Test.Restaurant.Core.EF.csproj.CoreCompileInputs.cache
+C:\Users\alessia.gualtieri\source\repos\Week5.Test.Restaurant.MVC\Week5.Test.Restaurant.Core.EF\obj\Debug\netstandard2.1\Week5.Test.Restaurant.Core.EF.csproj.CopyComplete
+C:\Users\alessia.gualtieri\source\repos\Week5.Test.Restaurant.MVC\Week5.Test.Restaurant.Core.EF\obj\Debug\netstandard2.1\Week5.Test.Restaurant.Core.EF.dll
+C:\Users\alessia.gualtieri\source\repos\Week5.Test.Restaurant.MVC\Week5.Test.Restaurant.Core.EF\obj\Debug\netstandard2.1\Week5.Test.Restaurant.Core.EF.pdb
