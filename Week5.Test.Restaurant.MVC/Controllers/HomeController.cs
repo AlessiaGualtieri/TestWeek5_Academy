@@ -68,11 +68,6 @@ namespace Week5.Test.Restaurant.MVC.Controllers
                         );
                     return Redirect("/");
                 }
-                //else
-                //{
-                //    ModelState.AddModelError(nameof(userVM.Password), "Invalid password");
-                //    return View(userVM);
-                //}
             }
 
             ViewData["LoginError"] = "Invalid Username or Password";
@@ -83,8 +78,6 @@ namespace Week5.Test.Restaurant.MVC.Controllers
         [HttpPost]
         public async Task<IActionResult> Register(UserViewModel userVM)
         {
-            //if (userVM == null)
-            //    return View("Error", new ErrorViewModel());
             if (! ModelState.IsValid)
                 return View("Login", userVM);
             var userExisting = mainBL.GetUser(userVM.Username);
@@ -93,8 +86,7 @@ namespace Week5.Test.Restaurant.MVC.Controllers
                 ViewData["LoginError"] = "Username already existing";
                 return View("Login");
             }
-            //if (String.IsNullOrEmpty(userVM.Username) || String.IsNullOrEmpty(userVM.Password))
-            //    return View(userVM);
+
             var user = new Core.Models.User()
             {
                 Username = userVM.Username,
